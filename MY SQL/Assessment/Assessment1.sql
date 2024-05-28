@@ -1,0 +1,27 @@
+create database company1;
+drop database company1;
+create database company;
+use company;
+create table employee(emp_id int primary key,first_name varchar(50),last_name varchar(50),age int,dept_id varchar(2));
+select * from employee;
+create table department(dept_id varchar(2) , dept_name varchar(50), address varchar(50));
+select * from department;
+insert into employee values(2,"nirmala","bohra",23,"A");
+insert into employee values(3,"neha","kalla",23,"B");
+insert into employee values(4,"Aditi","Bohra",21,"C");
+insert into employee values(5,"Amit","Bohra",25,"D");
+insert into employee values(6,"Priyanka","kalla",23,"E");
+insert into employee values(7,"Heena","Kalla",24,"F");
+insert into employee values(8,"Amita","Ajudiya",23,"G");
+insert into employee values(9,"Abhishak","Mathure",29,"H");
+insert into employee values(10,"Anaya","shah",27,"I");
+
+insert into department values('A',"IT","abc");
+insert into department values('B',"IT","def");
+insert into department values('C',"HR","bc");
+insert into department values('D',"Marketing","ab");
+insert into department values('C',"HR","xyz");
+insert into department values('E',"IT","xy");
+insert into department values('F',"Finance","yz");
+insert into department values('G',"Marketing","xz");
+insert into department values('H',"IT","gh");
